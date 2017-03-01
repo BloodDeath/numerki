@@ -8,7 +8,7 @@ int main()
     int sum=0;
     for (int i=1; i<=100; i++)
     {
-        sum=sum * i;
+        sum=sum+ (i+1) * i;
     }
     std::cout << sum << std::endl;
     std::cout << "Hello World!" << std::endl;
